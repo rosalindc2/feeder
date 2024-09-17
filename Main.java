@@ -1,4 +1,4 @@
-public class Feeder {
+public class Main {
 
     /**
      * The amount of food, in grams, currently in the bird feeder; initialized
