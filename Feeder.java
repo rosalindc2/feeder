@@ -23,10 +23,13 @@ public class Feeder {
     {
         return 0;
     }
-        public int getCurrentfood ()
+        public int getCurrentFood ()
         {
             return currentFood;
         }
-    
-
+    public Feeder (int c)
+    {
+        currentFood = c;
+    }
+    public Feeder() {}
 }
