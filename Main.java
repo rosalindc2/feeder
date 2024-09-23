@@ -9,7 +9,13 @@ public class Main
         Feeder g = new Feeder(500);
         System.out.println(g.getCurrentFood());
         System.out.println(Math.random() < 0.05);
-        if(Math.random() < 0.05) currentFood = 0;
+        g.simulateOneDay(12);
+        System.out.println(g.getCurrentFood());
+        Feeder i = new Feeder(100);
+        i.simulateOneDay(5);
+        System.out.println(i);
+        Feeder j = new Feeder(2400);
+        System.out.println(j.simulateManyDays(10, 4)); 
 
     }
 }
